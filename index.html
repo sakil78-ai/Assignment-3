@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animals House</title>
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/1ab2bd9c12.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+  <header class="bg-[#FFF9F4] py-3">
+    <!-- navbar -->
+    <div class="flex justify-between items-center w-[85%] mx-auto">
+      <div class="flex gap-3 items-center ">
+        <img src="assest-2/logo-header.png" alt="">
+        <h1 class="text-2xl font-extrabold">Browse<span class="text-[#FFDC26]">4</span>Pets</h1>
+      </div>
+
+      <!-- menu -->
+      <div class="hidden lg:flex gap-7">
+        <a href="#">Find a pet</a>
+        <a href="#">Breeds</a>
+        <a href="#">Contact us</a>
+      </div>
+
+      <div class="flex gap-3 items-center">
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <button class="border px-4 py-1 text-center rounded-md border-[#FFDC26]">Login</button>
+        <button class=" px-4 py-1 text-center rounded-md bg-[#FFDC26] ">Register</button>
+      </div>
+
+      <div class="lg:hidden">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- banner section -->
+    <div class="w-[85%] h-[500px] mx-auto bg-[url(/assest-2/cat-big.png)] bg-center bg-no-repeat  pt-16 space-y-4">
+      <h2 class="text-4xl font-bold ">Pamper Your Pet,<br> Because They Deserve <br>the Bes</h2>
+      <p>Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make
+        tails wag with joy!</p>
+      <button class=" px-4 py-1 text-center rounded-md bg-[#FFDC26] ">Find a pet</button>
+    </div>
+
+    <!-- Categories section -->
+    <div class="w-[95%] lg:w-[85%] mx-auto">
+      <h1 class="font-bold text-3xl pt-11 pb-10">Browse By Categories</h1>
+
+      <!-- parent cards -->
+      <div class="grid grid-cols-2 lg:grid-cols-6 gap-4 justify-between ">
+
+        <!-- cards -->
+        <div class="bg-[#f9df8a] flex items-center flex-col lg:p-14 p-10 rounded-lg gap-2">
+          <img class="rounded-full bg-white lg:p-8 p-2" src="./assest-2/dog-cartoon.png" alt="">
+          <h2 class="font-extrabold text-xl">Dog</h2>
+          <p class="text-xl ">item 3</p>
+        </div>
+
+        <div class="bg-[#f9df8a] flex items-center flex-col lg:p-14 p-10 rounded-lg gap-2">
+          <img class="rounded-full bg-white lg:p-8 p-2" src="./assest-2/cat-cartoon.png" alt="">
+          <h2 class="font-extrabold text-xl">Dog</h2>
+          <p class="text-xl">item 3</p>
+        </div>
+
+        <div class="bg-[#f9df8a] flex items-center flex-col lg:p-14 p-10 rounded-lg gap-2">
+          <img class="rounded-full bg-white lg:p-8 p-2" src="./assest-2/fish-cartoon.png" alt="">
+          <h2 class="font-extrabold text-xl">Dog</h2>
+          <p class="text-xl">item 3</p>
+        </div>
+
+        <div class="bg-[#f9df8a] flex items-center flex-col lg:p-14 p-10 rounded-lg gap-2">
+          <img class="rounded-full bg-white lg:p-8 p-2" src="./assest-2/rabbit-cartoon.png" alt="">
+          <h2 class="font-extrabold text-xl">Dog</h2>
+          <p class="text-xl">item 3</p>
+        </div>
+
+        <div class="bg-[#f9df8a] flex items-center flex-col lg:p-14 p-10 rounded-lg gap-2">
+          <img class="rounded-full bg-white lg:p-8 p-2" src="./assest-2/bird-cartoon.png" alt="">
+          <h2 class="font-extrabold text-xl">Dog</h2>
+          <p class="text-xl">item 3</p>
+        </div>
+
+        <div class="bg-[#f9df8a] flex items-center flex-col lg:p-14 p-10 rounded-lg gap-2">
+          <img class="rounded-full bg-white lg:p-8 p-2" src="./assest-2/mouse-cartoon.png" alt="">
+          <h2 class="font-extrabold text-xl">Dog</h2>
+          <p class="text-xl">item 3</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!--products section  -->
+    <div class="bg-[#fff9f4] mt-15 pb-15">
+      <!-- card flex -->
+      <div class="w-[95%] lg:w-[85%] mx-auto">
+        <h1 class="font-bold text-3xl pt-11 pb-10">Trending Pet Products</h1>
+        <!-- img content -->
+        <div class="lg:flex lg:gap-5 space-y-5">
+          <div class="lg:w-[35%] bg-[#F9DF8A] rounded-lg">
+            <div class="pl-5 space-y-5  items-start">
+              <h2 class="font-extrabold text-4xl pt-12 ">T-Shirt For Dog</h2>
+              <p class=""> Discover a world of treat, toy and <br>
+                essential handplcked for </p>
+              <button class=" px-4 py-1 text-center rounded-md bg-white">Shop now</button>
+            </div>
+            <div class="pl-48">
+              <img class="" src="./assest-2/cute-pet-mid.png" alt="">
+            </div>
+          </div>
+
+          <!-- product -->
+          <div class="lg:w-[75%] grid grid-cols-2  lg:grid-cols-3 gap-3">
+            <!-- card -->
+            <div class="flex gap-4 bg-white lg:pl-5 lg:pr-14 lg:py-8 py-3 rounded-lg border border-gray-200 items-center justify-center">
+              <div class="bg-[#fff9f4] rounded-md lg:px-5 lg:py-5 flex items-center justify-center">
+                <img src="./assest-2/pet-couch.png" alt="">
+              </div>
+              <div>
+                <div class="flex gap-3 items-center">
+                  <i class="fa-solid fa-star text-[#F9DF8A] text-2xl"></i>
+                  <p class="lg:text-2xl font-bold">4.5</p>
+                </div>
+                <h3 class="lg:text-2xl font-bold">Pet Bed</h3>
+                <p class="font-bold lg:text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <!-- card -->
+            <div class="flex gap-4 bg-white lg:pl-5 lg:pr-14 lg:py-8 py-3 rounded-lg border border-gray-200 items-center justify-center">
+              <div class="bg-[#fff9f4] rounded-md lg:px-5 lg:py-5 flex items-center justify-center">
+                <img src="./assest-2/pet-couch.png" alt="">
+              </div>
+              <div>
+                <div class="flex gap-3 items-center">
+                  <i class="fa-solid fa-star text-[#F9DF8A] text-2xl"></i>
+                  <p class="lg:text-2xl font-bold">4.5</p>
+                </div>
+                <h3 class="lg:text-2xl font-bold">Pet Bed</h3>
+                <p class="font-bold lg:text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <!-- card -->
+            <div class="flex gap-4 bg-white lg:pl-5 lg:pr-14 lg:py-8 py-3 rounded-lg border border-gray-200 items-center justify-center">
+              <div class="bg-[#fff9f4] rounded-md lg:px-5 lg:py-5 flex items-center justify-center">
+                <img src="./assest-2/pet-couch.png" alt="">
+              </div>
+              <div>
+                <div class="flex gap-3 items-center">
+                  <i class="fa-solid fa-star text-[#F9DF8A] text-2xl"></i>
+                  <p class="lg:text-2xl font-bold">4.5</p>
+                </div>
+                <h3 class="lg:text-2xl font-bold">Pet Bed</h3>
+                <p class="font-bold lg:text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <!-- card -->
+            <div class="flex gap-4 bg-white lg:pl-5 lg:pr-14 lg:py-8 py-3 rounded-lg border border-gray-200 items-center justify-center">
+              <div class="bg-[#fff9f4] rounded-md lg:px-5 lg:py-5 flex items-center justify-center">
+                <img src="./assest-2/pet-couch.png" alt="">
+              </div>
+              <div>
+                <div class="flex gap-3 items-center">
+                  <i class="fa-solid fa-star text-[#F9DF8A] text-2xl"></i>
+                  <p class="lg:text-2xl font-bold">4.5</p>
+                </div>
+                <h3 class="lg:text-2xl font-bold">Pet Bed</h3>
+                <p class="font-bold lg:text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <!-- card -->
+            <div class="flex gap-4 bg-white lg:pl-5 lg:pr-14 lg:py-8 py-3 rounded-lg border border-gray-200 items-center justify-center">
+              <div class="bg-[#fff9f4] rounded-md lg:px-5 lg:py-5 flex items-center justify-center">
+                <img src="./assest-2/pet-couch.png" alt="">
+              </div>
+              <div>
+                <div class="flex gap-3 items-center">
+                  <i class="fa-solid fa-star text-[#F9DF8A] text-2xl"></i>
+                  <p class="lg:text-2xl font-bold">4.5</p>
+                </div>
+                <h3 class="lg:text-2xl font-bold">Pet Bed</h3>
+                <p class="font-bold lg:text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <!-- card -->
+            <div class="flex gap-4 bg-white lg:pl-5 lg:pr-14 lg:py-8 py-3 rounded-lg border border-gray-200 items-center justify-center">
+              <div class="bg-[#fff9f4] rounded-md lg:px-5 lg:py-5 flex items-center justify-center">
+                <img src="./assest-2/pet-couch.png" alt="">
+              </div>
+              <div>
+                <div class="flex gap-3 items-center">
+                  <i class="fa-solid fa-star text-[#F9DF8A] text-2xl"></i>
+                  <p class="lg:text-2xl font-bold">4.5</p>
+                </div>
+                <h3 class="lg:text-2xl font-bold">Pet Bed</h3>
+                <p class="font-bold lg:text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <!-- card -->
+            <div class="flex gap-4 bg-white lg:pl-5 lg:pr-14 lg:py-8 py-3 rounded-lg border border-gray-200 items-center justify-center">
+              <div class="bg-[#fff9f4] rounded-md lg:px-5 lg:py-5 flex items-center justify-center">
+                <img src="./assest-2/pet-couch.png" alt="">
+              </div>
+              <div>
+                <div class="flex gap-3 items-center">
+                  <i class="fa-solid fa-star text-[#F9DF8A] text-2xl"></i>
+                  <p class="lg:text-2xl font-bold">4.5</p>
+                </div>
+                <h3 class="lg:text-2xl font-bold">Pet Bed</h3>
+                <p class="font-bold lg:text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <!-- card -->
+            <div class="flex gap-4 bg-white lg:pl-5 lg:pr-14 lg:py-8 py-3 rounded-lg border border-gray-200 items-center justify-center">
+              <div class="bg-[#fff9f4] rounded-md lg:px-5 lg:py-5 flex items-center justify-center">
+                <img src="./assest-2/pet-couch.png" alt="">
+              </div>
+              <div>
+                <div class="flex gap-3 items-center">
+                  <i class="fa-solid fa-star text-[#F9DF8A] text-2xl"></i>
+                  <p class="lg:text-2xl font-bold">4.5</p>
+                </div>
+                <h3 class="lg:text-2xl font-bold">Pet Bed</h3>
+                <p class="font-bold lg:text-xl">$39.99</p>
+              </div>
+            </div>
+
+            <!-- card -->
+            <div class="flex gap-4 bg-white lg:pl-5 lg:pr-14 lg:py-8 py-3 rounded-lg border border-gray-200 items-center justify-center">
+              <div class="bg-[#fff9f4] rounded-md lg:px-5 lg:py-5 flex items-center justify-center">
+                <img src="./assest-2/pet-couch.png" alt="">
+              </div>
+              <div>
+                <div class="flex gap-3 items-center">
+                  <i class="fa-solid fa-star text-[#F9DF8A]"></i>
+                  <p class="lg:text-2xl font-bold">4.5</p>
+                </div>
+                <h3 class="lg:text-2xl font-bold">Pet Bed</h3>
+                <p class="font-bold lg:text-xl">$39.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-[95%] lg:w-[85%] mx-auto">
+      <h1 class="font-bold text-3xl pt-11 pb-10">Everyday low Price</h1>
+      <!-- parent div -->
+      <div class="lg:flex gap-5 justify-between space-y-5">
+        <!-- child one -->
+        <div class="lg:w-[65%] flex items-center rounded-lg justify-center bg-linear-to-r from-[#F8CCFB] to-[#ACD2FD]">
+          <div class="pl-10">
+            <p class="">Under Price</p>
+            <h2 class="text-2xl font-black">Pet Grooming Mitt</h2>
+            <h3 class="text-xl text-white font-bold">(Easy Hair Removal)</h3>
+            <h1 class="text-3xl font-extrabold">$7.99</h1>
+          </div>
+          <img src="./assest-2/cute-dog-mid.png" class="h-72" alt="">
+        </div>
+        <!-- child two -->
+        <div class="lg:w-[35%] flex rounded-lg bg-linear-to-r from-[#FFF9F4] to-[#F9DF8A]">
+          <div class="pt-10 pl-10">
+            <h3  class="text-xl font-black"> T-Shirt for Dogs</h3>
+            <h1 class="text-3xl font-extrabold text-orange-300">$7.99</h1>
+          </div>
+          <img src="./assest-2/cute-pet-small.png" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="relative">
+      <div class="bg-white h-72"></div>
+      <div class="bg-[#ffed92] h-72"></div>
+      <div class="w-[95%] lg:w-[84%] lg:flex items-center gap-5 justify-center bg-[#fff9f4] absolute left-2 top-24 lg:top-24 lg:left-24 rounded-lg py-5">
+        <div class="flex justify-center">
+          <img class="lg:h-full h-48" src="./assest-2/cute-pet-mid.png" alt="">
+        </div>
+        <div class="flex flex-col lg:items-start sm:items-center gap-3">
+          <h2 class="text-3xl font-extrabold">Get Pawsome News!</h2>
+          <p class="text-xl font-bold text-center lg:text-left">Exclusive training tips, ticks, product deals and more.</p>
+          <input type="text" placeholder="Enter email...." class="pl-5 pr-24 py-2 bg-white rounded-lg">
+          <div class="flex items-center justify-center">
+            <button class="bg-[#FFDC26] px-5 py-2 rounded-lg">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="bg-[#ffed92] pb-24">
+    <div class="w-[95%] lg:w-[85%] mx-auto lg:flex justify-between items-center space-y-10">
+      <div>
+        <div class="flex gap-3 items-center ">
+          <img src="assest-2/logo-header.png" class="bg-gray-700">
+          <h1 class="text-2xl font-extrabold text-gray-700">Browse<span>4</span>Pets</h1>
+        </div>
+        <p>Discover a world of treats, toys, and <br> essentials handpicked for your furry friends</p>
+      </div>
+      
+      <div class="flex flex-col gap-3">
+        <a href="">Find a pet</a>
+        <a href="">Breeds</a>
+        <a href="">Contact us</a>
+      </div>
+      <div class="space-y-3">
+        <p>Follow Us</p>
+        <div class="flex gap-3">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
